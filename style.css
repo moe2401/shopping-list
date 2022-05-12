@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+}
+
+.left-side{
+    background-color: aqua;
+    width: 30vw;
+    height: 100vh;
+}
+
+.right-side{
+    background-color: lightpink;
+    width: 70vw;
+    height: 100vh;
+}
+
