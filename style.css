@@ -4,19 +4,36 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .container{
     display: flex;
 }
 
 .left-side{
-    background-color: aqua;
+    background-color:#54BCDE;
     width: 30vw;
     height: 100vh;
 }
 
 .right-side{
-    background-color: lightpink;
+    background-color:#E6E6E6;
     width: 70vw;
     height: 100vh;
+    text-align: center;
 }
 
+h1{
+    padding: 20px;
+    font-size: 1.5em;
+}
+
+ul{
+    list-style: none;
+}
+
+.list-item{
+    
+}
