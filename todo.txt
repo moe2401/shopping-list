@@ -1,0 +1,3 @@
+#javascript
+make enter work t add to the shopping list
+use local storage
