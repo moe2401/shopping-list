@@ -12,9 +12,12 @@
         <div class="right-side">
             <h1>SHOPPING LIST</h1>
             <input type="text" id="new-item">
-            <button>ADD TO SHOPPING LIST</button>
+            <button type="button" id="add-button" onclick="addToList()">ADD TO SHOPPING LIST</button>
+            <ul id="list-item">
+                <li></li>
+            </ul>
 
-            <ul>
+            <!-- <ul>
                 <li>
                     <input type="text" class="list-item" id="list-item-1">
                     <button class="edit-btn" id="edit-btn-1">EDIT</button>
@@ -116,9 +119,10 @@
                     <button class="delete-btn" id="delete-btn-20">DELETE</button>
                 </li>
                 
-            </ul>
+            </ul> -->
         </div>
     </div>
+    
     <script src="main.js"></script>
 </body>
 </html>
