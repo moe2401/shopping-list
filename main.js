@@ -15,6 +15,14 @@ addButton.addEventListener("click", function(){
     let list = document.createElement("li");
     list.innerText = newItem.value;
     listItems.appendChild(list);
+    list.classList.add("list-styling");
+    newItem.value = "";
+    list.addEventListener("click", function(){
+        list.style.textDecoration = "line-through";
+    })
+    list.addEventListener("dblclick", function(){
+        listItems.removeChild(list);
+    })
 })
 
 
