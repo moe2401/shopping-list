@@ -1,3 +1,4 @@
+ 
 
 
 
@@ -6,18 +7,15 @@
 
 
 
+let addButton = document.getElementById("add-button");
+let listItems = document.getElementById("list-items");
+let newItem = document.getElementById("new-item");
 
-
-
-// let addButton = document.getElementById("add-button");
-// let listItems = document.getElementById("list-items");
-// let newItem = document.getElementById("new-item");
-
-// addButton.addEventListener("click", function(){
-//     let list = document.createElement("li");
-//     list.innerText = newItem.value;
-//     listItems.appendChild(list);
-// })
+addButton.addEventListener("click", function(){
+    let list = document.createElement("li");
+    list.innerText = newItem.value;
+    listItems.appendChild(list);
+})
 
 
 
