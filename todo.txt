@@ -1,3 +1,4 @@
 #javascript
-make enter work t add to the shopping list
+    done MA 22/05/22 make enter work t add to the shopping list
 use local storage
+need to refactor javascript code so don't have to write the outcome of the eventlisteners twice.  
